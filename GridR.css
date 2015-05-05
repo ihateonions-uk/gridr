@@ -1,46 +1,40 @@
 /* Created by Joshua George @ madebycoffee.co.uk */
 /* http://madebycoffee.co.uk/gridr */
 
-.grid,
-.row {
-  *zoom: 1; }
-  .grid:before,
-  .row:before, .grid:after,
-  .row:after {
-    content: " ";
-    display: table; }
-  .grid:after,
-  .row:after {
-    clear: both; }
+.grid, .row {*zoom: 1;}
+.grid:before, .row:before, .grid:after, .row:after {content: " ";display: table;}
+.grid:after, .row:after {clear: both;}
 
 *,
 *:after,
-*:before {margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+*:before {margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 
 /* SETTING RESPONSIVE IMAGE SIZES */
-img {width: auto; max-width: 100%; height: auto !important;}
+img {width:auto;max-width:100%;height:auto !important;}
 
 /* THE MAIN GRID */
-.grid {width: 100%; margin: 0 auto;}
-  
-/* BLOCKS */
-.block {display: block; background: #8E7B64; padding: 20px; text-align: center; -moz-border-radius: 5px; -webkit-border-radius: 5px;font-size: 15px; color: #FFF; text-decoration: none; font-family: 'Open Sans', sans-serif;}
-     
-/* INCASE YOU WANT SOME PADDING ON THE BOTTOM OF YOUR ROWS 
-.row {padding-bottom:20px;} 
-*/
+.grid {width:100%;margin:0 auto;padding-bottom:20px;}
 
 /* DEFINE THE COLUMN FLOATS AND WIDTH */
-[class*='column-'] {float: left; padding: 0.5em; width: 100%; min-height: 1px;}
+[class*='column-'] {float:left;min-height: 1px;padding: 0.5em;width: 100%;}
+
+
+/* BLOCKS - THIS IS WHERE YOU COULD CREATE MORE BLOCKS TO STYLE DIFFERENT COLOUMNS */
+.block {display: block;background:#8E7B64;padding:20px;text-align:center;-moz-border-radius:5px;-webkit-border-radius:5px;font-size: 15px;color:#FFF;text-decoration:none;font-family: 'Open Sans', sans-serif;}
+
+.block:hover {background-color:#DF020A;}
 
 /* COLUMN WIDTHS ARE DECALRED HERE */
 /* THIS IS WHERE YOU CAN ADD MORE COLUMN SIZES YOURSELF. YOU FIND MORE SIZE AND http://madebycoffee.co.uk/gridr */
 @media only screen and (min-width: 34em) {
-.grid {width: 100%; max-width: 2140px;}
+.grid {width: 100%;max-width: 2140px;}
 .column-one-tenth {width: 10%;}
-.column-one-forth {width: 25%;}
-.column-one-third {width: 33.33333%;}
-.column-two-thirds {width: 66.66666%;}
-.column-half {width: 50%;}
-.column-full-width {width: 100%;}
-}
+.column-one-sixth {width:16.66666%;}
+.column-one-fifth {width:20%;}
+.column-two-fifths {width:40%;}
+.column-one-fourth {width:25%;}
+.column-one-third {width:33.33333%;}
+.column-two-thirds {width:66.66666%;}
+.column-one-half {width:50%;}
+.column-full-width {width:100%;} 
+ }
