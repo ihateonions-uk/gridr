@@ -7,6 +7,6 @@ All grids start with a grid div tag which houses a row tag for the columns.
 
 Feel free to use how you wish.
 
-http://madebycoffee.co.uk/gridr
+http://ihateonions.co.uk/projects/gridr
 
-http://madebycoffee.co.uk/gridr/documentation
+http://ihateonions.co.uk/projects/gridr/documentation
