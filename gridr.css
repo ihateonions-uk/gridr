@@ -1,5 +1,6 @@
-/* Created by Joshua George @ madebycoffee.co.uk */
-/* http://madebycoffee.co.uk/gridr */
+/* Created by Joshua George | ihateonions.uk */
+/* http://ihateonions.uk /projects/gridr */
+/* Version: 2.0 */
 
 .grid, .row {*zoom: 1;}
 .grid:before, .row:before, .grid:after, .row:after {content: " ";display: table;}
@@ -18,16 +19,15 @@ img {width:auto;max-width:100%;height:auto !important;}
 /* DEFINE THE COLUMN FLOATS AND WIDTH */
 [class*='column-'] {float:left;min-height: 1px;padding: 0.5em;width: 100%;}
 
-
 /* BLOCKS - THIS IS WHERE YOU COULD CREATE MORE BLOCKS TO STYLE DIFFERENT COLOUMNS */
 .block {display: block;background:#8E7B64;padding:20px;text-align:center;-moz-border-radius:5px;-webkit-border-radius:5px;font-size: 15px;color:#FFF;text-decoration:none;font-family: 'Open Sans', sans-serif;}
 
 .block:hover {background-color:#DF020A;}
 
 /* COLUMN WIDTHS ARE DECALRED HERE */
-/* THIS IS WHERE YOU CAN ADD MORE COLUMN SIZES YOURSELF. YOU FIND MORE SIZE AND http://madebycoffee.co.uk/gridr */
+/* THIS IS WHERE YOU CAN ADD MORE COLUMN SIZES YOURSELF. YOU FIND MORE SIZE AND http://ihateonions.uk/projects/gridr */
 @media only screen and (min-width: 34em) {
-.grid {width: 100%;max-width: 2140px;}
+.grid {width: 100%;max-width: 1550px;}
 .column-one-tenth {width: 10%;}
 .column-one-sixth {width:16.66666%;}
 .column-one-fifth {width:20%;}
@@ -37,4 +37,4 @@ img {width:auto;max-width:100%;height:auto !important;}
 .column-two-thirds {width:66.66666%;}
 .column-one-half {width:50%;}
 .column-full-width {width:100%;} 
- }
+}
